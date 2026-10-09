@@ -72,7 +72,7 @@ html_content = f"""<!DOCTYPE html>
     .slide-wrapper {{
         width: 1080px;
         height: 1350px;
-        padding: 42px 52px 34px 52px;
+        padding: 40px 52px 32px 52px;
         position: relative;
         overflow: hidden;
         display: flex;
@@ -174,23 +174,23 @@ html_content = f"""<!DOCTYPE html>
         margin-bottom: 14px;
     }}
 
-    /* AUTHOR PROFILE HERO (SLIDE 1) */
+    /* AUTHOR HERO CONTAINER (SLIDE 1 TOP-CENTER) */
     .author-hero-container {{
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
-        margin: 6px 0 16px 0;
+        margin: 4px 0 14px 0;
     }}
     .author-hero-avatar {{
-        width: 102px;
-        height: 102px;
+        width: 104px;
+        height: 104px;
         border-radius: 50%;
         overflow: hidden;
         border: 3px solid #38bdf8;
         background: #1e293b;
-        box-shadow: 0 8px 24px rgba(56, 189, 248, 0.25);
-        margin-bottom: 10px;
+        box-shadow: 0 8px 24px rgba(56, 189, 248, 0.28);
+        margin-bottom: 8px;
     }}
     .author-hero-avatar img {{
         width: 100%;
@@ -198,7 +198,7 @@ html_content = f"""<!DOCTYPE html>
         object-fit: cover;
     }}
     .author-hero-name {{
-        font-size: 18px;
+        font-size: 19px;
         font-weight: 900;
         color: #ffffff;
         letter-spacing: 0.2px;
@@ -369,7 +369,7 @@ html_content = f"""<!DOCTYPE html>
     }}
     .dashboard-window img {{
         width: 100%;
-        height: 485px;
+        height: 480px;
         object-fit: cover;
         object-position: top;
         display: block;
@@ -471,7 +471,7 @@ html_content = f"""<!DOCTYPE html>
     </div>
 
     <div class="slide-body">
-        <!-- AUTHOR PROFILE HERO (TOP CENTER) -->
+        <!-- AUTHOR PROFILE HERO (TOP CENTER - CLEAN & PROMINENT) -->
         <div class="author-hero-container">
             <div class="author-hero-avatar">
                 <img src="{author_photo_uri}" alt="{author_name}">
@@ -489,14 +489,14 @@ html_content = f"""<!DOCTYPE html>
         </div>
         
         <div class="subtitle-text" style="text-align: center; max-width: 920px; margin: 0 auto 16px auto;">
-            Menganalisis 85.020 transaksi pesanan di 18 cabang Jabodetabek. Rata-rata margin jaringan tampak stabil di <strong>33,8%</strong>. Namun bedah data membuktikan 4 cabang mengalami pendarahan laba akibat 3 akar masalah yang berbeda.
+            Menganalisis 85.020 transaksi pesanan di 18 cabang Jabodetabek. Margin rata-rata konsorsium tampak sehat di <strong>33,8%</strong>. Namun bedah data membuktikan 4 cabang mengalami pendarahan laba struktural akibat 3 akar masalah yang berbeda.
         </div>
 
         <div class="grid-4">
             <div class="bento-card">
                 <div class="stat-title">Skala Jaringan</div>
                 <div class="big-stat cyan">18</div>
-                <div class="stat-subtitle">Cabang aktif Jabodetabek</div>
+                <div class="stat-subtitle">Cabang aktif di Jabodetabek</div>
             </div>
             <div class="bento-card">
                 <div class="stat-title">Total Transaksi</div>
@@ -520,18 +520,15 @@ html_content = f"""<!DOCTYPE html>
                 🎯 Nilai Tambah yang Ditonjolkan dalam Portofolio Ini:
             </div>
             <div style="font-size: 13px; line-height: 1.5; color: #cbd5e1;">
-                Bukan sekadar keahlian membuat grafik, dokumen ini mendokumentasikan <strong>pola pikir pengambilan keputusan analitis</strong>: mengapa memilih langkah tertentu, untuk apa, dan dampak nyata apa yang dihasilkan bagi profitabilitas bisnis.
+                Bukan sekadar keahlian membuat grafik, dokumen ini mendokumentasikan <strong>pola pikir pengambilan keputusan analitis</strong>: mengapa memilih langkah tertentu, untuk apa, dan dampak nyata apa yang dihasilkan bagi profitabilitas bisnis manajemen.
             </div>
         </div>
     </div>
 
+    <!-- FOOTER SLIDE 1 (CLEAN NAVIGATION - NO DUPLICATE AVATAR) -->
     <div class="slide-footer">
-        <div class="author-badge">
-            <div class="author-avatar"><img src="{author_photo_uri}" alt="{author_name}"></div>
-            <div>
-                <div class="author-name">{author_name}</div>
-                <div class="author-role">{author_role}</div>
-            </div>
+        <div style="font-size: 13px; font-weight: 700; color: #94a3b8; display: flex; align-items: center; gap: 8px;">
+            <span style="color: #38bdf8;">👤 Author:</span> {author_name} • Portfolio Project 1
         </div>
         <div class="next-cta">Bedah Pola Pikir Data Cleaning <span>👉</span></div>
     </div>
@@ -566,7 +563,7 @@ html_content = f"""<!DOCTYPE html>
             <div class="decision-pill">
                 <span class="tag-label tag-for">Untuk Apa (What For)</span>
                 <div class="decision-text">
-                    Untuk <strong>memisahkan secara tegas</strong> segmen pelanggan loyal (terdata) dari pembeli walk-in. Transaksi tanpa member dikelompokkan dalam kategori <code>Guest/Anonim</code> tanpa memaksakan identitas fiktif.
+                    Untuk <strong>memisahkan secara tegas</strong> segmen pelanggan loyal (terdata) dari pembeli walk-in. Nilai kosong tidak diisi rata-rata, melainkan dialokasikan ke entitas khusus <code>Guest/Walk-in</code> agar histori transaksi tetap murni 100%.
                 </div>
             </div>
             <div class="decision-pill">
@@ -579,15 +576,15 @@ html_content = f"""<!DOCTYPE html>
 
         <div class="grid-2">
             <div class="bento-card danger">
-                <div class="stat-title" style="color: #f87171;">❌ Jika Diisi Rata-Rata (Mean Imputation):</div>
+                <div class="stat-title" style="color: #f87171;">❌ Jika Dipaksakan Isi Rata-Rata (Mean Imputation):</div>
                 <div style="font-size: 13px; color: #cbd5e1; line-height: 1.45; margin-top: 4px;">
-                    Mendistorsi sebaran data, menyamarkan transaksi anonim, dan menghasilkan rekomendasi retensi pelanggan yang salah.
+                    Mendistorsi sebaran data, menyamarkan transaksi anonim, dan menghasilkan rekomendasi retensi pelanggan yang salah kaprah.
                 </div>
             </div>
             <div class="bento-card success">
-                <div class="stat-title" style="color: #34d399;">✅ Dikelola Berdasarkan Realitas Bisnis:</div>
+                <div class="stat-title" style="color: #34d399;">✅ Dikelola Sesuai Kategori Guest/Walk-in:</div>
                 <div style="font-size: 13px; color: #cbd5e1; line-height: 1.45; margin-top: 4px;">
-                    Menjaga kejujuran data 100%, memungkinkan manajemen membandingkan tren belanja member vs non-member secara objektif.
+                    Menjaga kejujuran data transaksi 100%, memungkinkan manajemen membandingkan tren belanja member vs non-member secara objektif.
                 </div>
             </div>
         </div>
@@ -633,9 +630,9 @@ html_content = f"""<!DOCTYPE html>
 
         <div class="grid-2">
             <div class="bento-card">
-                <div class="stat-title" style="color: #38bdf8;">Tujuan Analisis:</div>
+                <div class="stat-title" style="color: #38bdf8;">Fokus Temuan Data (Kaca Pembesar):</div>
                 <div style="font-size: 13px; color: #cbd5e1; line-height: 1.45; margin-top: 4px;">
-                    Memberikan visibilitas instan kepada manajemen bahwa rata-rata 33,8% menyembunyikan jurang performa: Cabang terendah <strong>23,9%</strong> vs Cabang tertinggi <strong>40,8%</strong>.
+                    Perhatikan grafik batang di tengah: margin rata-rata 33,8% menyembunyikan jurang performa ekstrem: Cabang Kelapa Gading (<strong>23,9%</strong>) tertinggal 16,9% di bawah Benchmark Cinere (<strong>40,8%</strong>).
                 </div>
             </div>
             <div class="bento-card">
@@ -685,7 +682,7 @@ html_content = f"""<!DOCTYPE html>
                         <th>Cabang</th>
                         <th>Net Margin</th>
                         <th>Akar Masalah Utama</th>
-                        <th>Karakter Diagnosa</th>
+                        <th>Karakter Diagnosa Lapangan</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -705,13 +702,13 @@ html_content = f"""<!DOCTYPE html>
                         <td><strong>Tangerang (BR11)</strong></td>
                         <td><span style="color: #fbbf24; font-weight:800;">30,5%</span></td>
                         <td>Harga Bahan (+14%) &amp; Waste (4,8%)</td>
-                        <td>Porsi belum standar &amp; supplier mahal</td>
+                        <td>Food waste akibat portioning &amp; vendor mahal</td>
                     </tr>
                     <tr>
                         <td><strong>Sentul (BR13)</strong></td>
                         <td><span style="color: #fbbf24; font-weight:800;">32,3%</span></td>
                         <td>Murni Markup Supplier Lokal</td>
-                        <td>Dapur sangat hemat (waste rendah)</td>
+                        <td>Dapur sangat hemat &amp; terkontrol presisi</td>
                     </tr>
                 </tbody>
             </table>
@@ -767,12 +764,12 @@ html_content = f"""<!DOCTYPE html>
             <div class="bento-card">
                 <div class="stat-title">Labor BR03</div>
                 <div class="big-stat red">+8,3σ</div>
-                <div class="stat-subtitle">Deviasi biaya gaji di atas normal</div>
+                <div class="stat-subtitle">Biaya gaji 8x di luar batas normal</div>
             </div>
             <div class="bento-card">
                 <div class="stat-title">Sourcing BR05</div>
                 <div class="big-stat red">+27,7σ</div>
-                <div class="stat-subtitle">Harga beli bahan baku abnormal</div>
+                <div class="stat-subtitle">Harga beli 27x di luar batas wajar</div>
             </div>
             <div class="bento-card">
                 <div class="stat-title">Waste BR05</div>
@@ -782,9 +779,9 @@ html_content = f"""<!DOCTYPE html>
         </div>
 
         <div class="decision-pill">
-            <span class="tag-label tag-why">Mengapa Z-Score?</span>
+            <span class="tag-label tag-why">Arti Bisnis Z-Score</span>
             <div class="decision-text" style="font-size: 13px;">
-                Z-Score memisahkan perdebatan opini subjektif. Nilai deviasi di atas <strong>+3,0σ</strong> membuktikan secara objektif bahwa angka tersebut adalah anomali sistemik yang wajib diintervensi oleh manajemen.
+                Z-Score memisahkan perdebatan opini subjektif. Nilai deviasi di atas <strong>+3,0σ</strong> membuktikan secara ilmiah bahwa angka tersebut adalah anomali sistemik yang mustahil terjadi secara kebetulan, sehingga wajib diintervensi oleh manajemen.
             </div>
         </div>
     </div>
@@ -827,11 +824,11 @@ html_content = f"""<!DOCTYPE html>
             <img src="{cabang_baru_img_uri}" alt="Power BI Cabang Baru BR18 Dashboard">
         </div>
 
-        <div class="bento-card success" style="padding: 12px 18px;">
+        <div class="bento-card success" style="padding: 14px 18px;">
             <div class="stat-title" style="color: #34d399; font-size: 14px;">
-                🛡️ Mengapa Cabang Summarecon Bekasi (BR18) Tidak Perlu Dipotong Budget?
+                🛡️ Mengapa Cabang Summarecon Bekasi (BR18) Tidak Boleh Dipotong Budget?
             </div>
-            <div style="font-size: 13px; line-height: 1.5; color: #cbd5e1; margin-top: 4px;">
+            <div style="font-size: 13px; line-height: 1.52; color: #cbd5e1; margin-top: 4px;">
                 Margin rata-rata BR18 rendah (<strong>25,0%</strong>) dan sempat dinilai bermasalah. Namun analisis tren membuktikan ini adalah <strong>kurva pertumbuhan alami (ramp-up curve)</strong>: Juni 19,9% ➔ Juli 23,5% ➔ Agustus 27,4% ➔ September <strong>29,1%</strong>. Intervensi tergesa-gesa (seperti memangkas staf) justru akan menurunkan kualitas pelayanan di gerai baru.
             </div>
         </div>
@@ -890,7 +887,7 @@ html_content = f"""<!DOCTYPE html>
             <div class="decision-pill">
                 <span class="tag-label tag-why">Mengapa Cinere?</span>
                 <div class="decision-text">
-                    Membantah anggapan bahwa *"biaya operasional Jabodetabek memang mahal"*. Beroperasi di demografi serupa, Cinere membuktikan efisiensi prima di seluruh variabel (Labor, Sourcing, Waste).
+                    Membantah anggapan bahwa *"biaya operasional Jabodetabek memang mahal"*. Cinere bukan cabang sepi; volumenya berada di kuartil atas jaringan, membuktikan efisiensinya murni lahir dari kedisiplinan operasional, bukan anomali volume pesanan.
                 </div>
             </div>
             <div class="decision-pill">
@@ -991,7 +988,7 @@ html_content = f"""<!DOCTYPE html>
             Dampak Finansial: Menyelamatkan <span class="emerald">~Rp 254 Juta Laba Bersih</span> per Tahun
         </div>
         <div class="subtitle-text">
-            Dengan mengembalikan performa 4 cabang kritis menuju benchmark Cinere, konsorsium memulihkan dividen tunai tanpa perlu membuka gerai baru:
+            Dihitung dari selisih pemborosan riil 4 cabang terhadap biaya standar benchmark Cinere pada volume pesanan yang sama:
         </div>
 
         <div class="grid-2">
@@ -1019,13 +1016,13 @@ html_content = f"""<!DOCTYPE html>
 
         <div class="bento-card highlight" style="text-align: center; padding: 14px 20px;">
             <div style="font-size: 13px; font-weight: 700; color: #94a3b8; text-transform: uppercase; letter-spacing: 1px;">
-                Total Pemulihan Laba Bersih Tahunan (Bottom-Line Impact):
+                Total Pemulihan Laba Bersih Tahunan (Bottom-Line Recovery):
             </div>
             <div style="font-family: 'JetBrains Mono', monospace; font-size: 38px; font-weight: 900; color: #34d399; margin: 4px 0;">
                 ~Rp 254.000.000 / Tahun
             </div>
             <div style="font-size: 13px; color: #cbd5e1;">
-                Setara dengan keuntungan bersih membuka 2 cabang baru tanpa risiko belanja modal (Capex)!
+                Setara dengan dividen laba membuka 2 cabang baru tanpa risiko modal Capex!
             </div>
         </div>
     </div>
@@ -1062,7 +1059,7 @@ html_content = f"""<!DOCTYPE html>
         </div>
 
         <!-- HERO GITHUB CARD -->
-        <div class="bento-card highlight" style="padding: 18px 22px; border-color: rgba(56, 189, 248, 0.6); background: #13274f;">
+        <div class="bento-card highlight" style="padding: 16px 20px; border-color: rgba(56, 189, 248, 0.6); background: #13274f;">
             <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
                 <div style="display: flex; align-items: center; gap: 10px;">
                     <span style="font-size: 26px;">📂</span>
@@ -1076,11 +1073,15 @@ html_content = f"""<!DOCTYPE html>
                 </div>
             </div>
             
-            <div style="background: #091224; border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; padding: 10px 14px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #38bdf8; word-break: break-all; margin: 10px 0;">
+            <div style="background: #091224; border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; padding: 10px 14px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #38bdf8; word-break: break-all; margin: 8px 0;">
                 https://github.com/fajarsetyadilucky/Retail-Branch-Profitability-Analysis
             </div>
 
-            <div style="font-size: 12px; color: #94a3b8; display: flex; gap: 16px; margin-top: 6px;">
+            <div style="font-size: 12px; color: #38bdf8; font-weight: 600; margin-bottom: 6px;">
+                🔗 Link aktif &amp; file .pbix asli dapat langsung diklik pada caption postingan di atas 👆
+            </div>
+
+            <div style="font-size: 12px; color: #94a3b8; display: flex; gap: 16px;">
                 <span>📊 Dashboard File (.PBIX Asli)</span>
                 <span>🐍 Python Cleaning Pipeline</span>
                 <span>📑 Metodologi Audit Z-Score</span>
