@@ -37,6 +37,7 @@ ENV/
 # Local Temporary & Archive Folders
 _archive/
 save & Clean/
+reports/figures/backup_raw_screenshots/
 *.tmp
 
 # Operating System

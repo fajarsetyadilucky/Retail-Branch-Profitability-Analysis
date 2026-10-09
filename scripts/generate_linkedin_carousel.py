@@ -369,9 +369,9 @@ html_content = f"""<!DOCTYPE html>
     }}
     .dashboard-window img {{
         width: 100%;
-        height: 480px;
+        height: 565px;
         object-fit: cover;
-        object-position: top;
+        object-position: top center;
         display: block;
     }}
 
