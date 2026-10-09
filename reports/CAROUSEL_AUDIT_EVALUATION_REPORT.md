@@ -2,7 +2,7 @@
 ## Dokumen Carousel LinkedIn & Copywriting Portofolio: Retail Branch Profitability Optimization
 
 **Kandidat / Analis:** Fajar Setyadi  
-**Posisi yang Dituju:** Data Analyst / Business Intelligence Specialist  
+**Posisi yang Dituju:** Data Analyst / Business Intelligence  
 **Target Audiens Evaluasi:** Senior HR, Technical Hiring Manager, Head of Data/Analytics, C-Level Management  
 **Format Portofolio:** LinkedIn Carousel Document (1080 × 1350 px, Rasio Emas 4:5, 10 Slide)  
 **Status Evaluasi:** **SANGAT MEMUASKAN & REKOMENDASI TINGGI UNTUK REKRUTMEN (EXCELLENT / READY TO PUBLISH)**
@@ -69,4 +69,4 @@ Ketiga gambar telah dipangkas secara matematis pada batas kanvas aktif (*tight b
 ---
 
 ### 4. Kesimpulan Akhir & Rekomendasi Publikasi
-Dokumen LinkedIn Carousel ini telah memenuhi standar tertinggi portofolio profesional untuk level Senior / Specialist Data Analyst. Materi ini sangat direkomendasikan untuk segera diunggah sebagai dokumen PDF di LinkedIn bersama copywriting yang telah disediakan di `reports/LINKEDIN_POST_COPY.md`.
+Dokumen LinkedIn Carousel ini telah memenuhi standar tertinggi portofolio profesional untuk posisi Data Analyst & Business Intelligence. Materi ini sangat direkomendasikan untuk segera diunggah sebagai dokumen PDF di LinkedIn bersama copywriting yang telah disediakan di `reports/LINKEDIN_POST_COPY.md`.

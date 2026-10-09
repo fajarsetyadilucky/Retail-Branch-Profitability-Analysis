@@ -129,9 +129,9 @@ Dokumen Carousel LinkedIn telah dirancang dengan standar rasio **4:5 Emas (1080 
 ## 👨‍💻 Profil Author & Kontak
 
 **Fajar Setyadi**  
-*Data Analyst & Business Intelligence Specialist*  
+*Data Analyst & Business Intelligence*  
 - 📧 Email: [Fajarsetyadilucky@gmail.com](mailto:Fajarsetyadilucky@gmail.com)  
 - 💬 WhatsApp: [+62 896-3052-7099](https://wa.me/6289630527099)  
-- 💻 GitHub: [github.com/fajarsetyadilucky](https://github.com/fajarsetyadilucky/Portfolio_Restaurant_Branch_Optimization)  
+- 💻 GitHub: [Retail-Branch-Profitability-Analysis](https://github.com/fajarsetyadilucky/Retail-Branch-Profitability-Analysis)  
 
 *Terbuka untuk diskusi teknis, evaluasi proyek portofolio, dan peluang karir di bidang Data Analytics / Business Intelligence.*

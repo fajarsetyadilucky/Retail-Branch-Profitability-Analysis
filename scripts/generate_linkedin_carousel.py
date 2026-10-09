@@ -37,7 +37,7 @@ root_cause_img_uri = get_base64_image(FIGURES_DIR / "dashboard_root_cause.jpg")
 
 github_url = "https://github.com/fajarsetyadilucky/Retail-Branch-Profitability-Analysis"
 author_name = "Fajar Setyadi"
-author_role = "Data Analyst & Business Intelligence Specialist"
+author_role = "Data Analyst & Business Intelligence"
 author_email = "Fajarsetyadilucky@gmail.com"
 author_wa = "089630527099"
 author_wa_formatted = "0896-3052-7099"
@@ -1198,7 +1198,7 @@ for i in range(1, 11):
 post_copy = f"""Banyak praktisi data terjebak pada ilusi rata-rata: "Margin jaringan 33,8%, bisnis tampak sehat."
 Namun saat data dibedah secara mendalam, ditemukan kebocoran laba Rp 254 Juta di 4 cabang dengan 3 masalah operasional yang berbeda total.
 
-Sebagai Data Analyst & Business Intelligence Specialist, bagi saya data bukan sekadar grafik yang indah di layar—melainkan pola pikir pengambilan keputusan: MENGAPA melakukan sesuatu, UNTUK APA, dan DAMPAK BISNIS NYATA APA yang dihasilkan bagi manajemen.
+Sebagai Data Analyst & Business Intelligence, bagi saya data bukan sekadar grafik yang indah di layar—melainkan pola pikir pengambilan keputusan: MENGAPA melakukan sesuatu, UNTUK APA, dan DAMPAK BISNIS NYATA APA yang dihasilkan bagi manajemen.
 
 Berikut 4 sorotan analitis dalam studi kasus ini:
 

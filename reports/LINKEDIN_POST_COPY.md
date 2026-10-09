@@ -1,7 +1,7 @@
 Banyak praktisi data terjebak pada ilusi rata-rata: "Margin jaringan 33,8%, bisnis tampak sehat."
 Namun saat data dibedah secara mendalam, ditemukan kebocoran laba Rp 254 Juta di 4 cabang dengan 3 masalah operasional yang berbeda total.
 
-Sebagai Data Analyst & Business Intelligence Specialist, bagi saya data bukan sekadar grafik yang indah di layar—melainkan pola pikir pengambilan keputusan: MENGAPA melakukan sesuatu, UNTUK APA, dan DAMPAK BISNIS NYATA APA yang dihasilkan bagi manajemen.
+Sebagai Data Analyst & Business Intelligence, bagi saya data bukan sekadar grafik yang indah di layar—melainkan pola pikir pengambilan keputusan: MENGAPA melakukan sesuatu, UNTUK APA, dan DAMPAK BISNIS NYATA APA yang dihasilkan bagi manajemen.
 
 Berikut 4 sorotan analitis dalam studi kasus ini:
 
@@ -28,7 +28,7 @@ Mengadopsi blueprint cabang benchmark (Cinere - BR09, margin 40,8%) dan mengekse
 https://github.com/fajarsetyadilucky/Retail-Branch-Profitability-Analysis
 
 📬 Terbuka untuk Diskusi & Peluang Kerja (Full-time / Kontrak):
-👤 Fajar Setyadi | Data Analyst & Business Intelligence Specialist
+👤 Fajar Setyadi | Data Analyst & Business Intelligence
 📧 Fajarsetyadilucky@gmail.com
 💬 WhatsApp: 0896-3052-7099 (https://wa.me/6289630527099)
 
