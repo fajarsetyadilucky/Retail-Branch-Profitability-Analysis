@@ -479,10 +479,8 @@ html_content = f"""<!DOCTYPE html>
             <div class="author-hero-name">{author_name}</div>
             <div class="author-hero-role">{author_role}</div>
         </div>
-
-        <div class="slide-category" style="justify-content: center;">Portfolio Project 1 • Business Intelligence Case Study</div>
         
-        <div class="hook-title" style="text-align: center; font-size: 35px; margin-bottom: 12px;">
+        <div class="hook-title" style="text-align: center; font-size: 35px; margin-bottom: 12px; margin-top: 4px;">
             Revenue Rp 4,89 Miliar,<br>
             Tapi Ada <span class="amber">Kebocoran Laba Rp 254 Juta</span><br>
             di Bawah Radar?
