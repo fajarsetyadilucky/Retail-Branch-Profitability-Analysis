@@ -1,0 +1,48 @@
+{
+  "name": "Tabs",
+  "dataColors": [
+    "#7667ce",
+    "#8c5bc6",
+    "#a24fbf",
+    "#b942b7",
+    "#cf36b0",
+    "#e52aa8",
+    "#c838a9",
+    "#ab45aa",
+    "#8f53ac",
+    "#7260ad",
+    "#556eae",
+    "#7386bd",
+    "#909fcc",
+    "#aeb7da",
+    "#cbd0e9",
+    "#e9e8f8"
+  ],
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "categoryAxis": [
+          {
+            "showAxisTitle": false
+          }
+        ],
+        "valueAxis": [
+          {
+            "showAxisTitle": false
+          }
+        ],
+        "title": [
+          {
+            "alignment": "center",
+            "show": true
+          }
+        ]
+      }
+    }
+  }
+}

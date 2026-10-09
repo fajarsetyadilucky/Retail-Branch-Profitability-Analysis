@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "name": "donutChart67210699055242698",
+  "position": {
+    "x": 713,
+    "y": 225,
+    "width": 545,
+    "height": 474,
+    "z": 0,
+    "tabOrder": 5
+  },
+  "visual": {
+    "visualType": "donutChart",
+    "drillFilterOtherVisuals": true
+  }
+}

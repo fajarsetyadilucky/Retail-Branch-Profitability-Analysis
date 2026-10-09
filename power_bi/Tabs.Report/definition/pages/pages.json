@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/pagesMetadata/1.0.0/schema.json",
+  "activePageName": "Sample_Report_dedaba08",
+  "pageOrder": [
+    "Sample_Report_dedaba08",
+    "Page1_full_96af6fa3",
+    "Page2_Full_2_b1b8a544",
+    "Page3_Full_Cards_e3265260",
+    "Page1_Header_Space_58f1b457",
+    "Page1_Header_Space_2_3cea9b9b",
+    "Page1_Header_space_Cards_a2a5933c",
+    "Page1_full-1_f40d8b28",
+    "Page2_Full_3_d26df0e6",
+    "Page3_Full_Cards-1_3bb4a781",
+    "Page1_Header_Space-1_512b75af",
+    "Page1_Header_Space_3_1cd2747c",
+    "Page1_Header_space_Cards-1_c8046535",
+    "Page1_full-2_775ba186",
+    "Page2_Full_4_633f4e5c",
+    "Page3_Full_Cards-2_7b1eebce",
+    "Page1_Header_Space-2_78910c91",
+    "Page1_Header_Space_4_9204ca31",
+    "Page1_Header_space_Cards-2_5ec27090"
+  ]
+}

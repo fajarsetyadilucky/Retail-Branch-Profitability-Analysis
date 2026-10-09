@@ -1,0 +1,17 @@
+item_id,item_name,category,selling_price
+ITM01,Nasi Ayam Geprek,Makanan Berat,28000
+ITM02,Nasi Rendang,Makanan Berat,32000
+ITM03,Mie Goreng Spesial,Makanan Berat,26000
+ITM04,Ayam Bakar Madu,Makanan Berat,30000
+ITM05,Nasi Goreng Kampung,Makanan Berat,25000
+ITM06,Sate Ayam,Makanan Berat,27000
+ITM07,Es Teh Manis,Minuman,8000
+ITM08,Es Jeruk,Minuman,10000
+ITM09,Kopi Susu Gula Aren,Minuman,18000
+ITM10,Matcha Latte,Minuman,22000
+ITM11,Jus Alpukat,Minuman,16000
+ITM12,Tahu Crispy,Snack,15000
+ITM13,Pisang Goreng Keju,Snack,17000
+ITM14,Kentang Goreng,Snack,14000
+ITM15,Puding Coklat,Dessert,12000
+ITM16,Es Krim Goreng,Dessert,19000

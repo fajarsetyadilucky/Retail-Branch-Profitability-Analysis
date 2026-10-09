@@ -1,0 +1,19 @@
+ingredient_id,ingredient_name,unit,standard_cost,ingredient_name_original,unit_original
+ING01,AYAM,KG,38000,Ayam,kg
+ING02,DAGING RENDANG,KG,130000,Daging Rendang,kg
+ING03,BERAS,KG,13000,Beras,kg
+ING04,MIE BASAH,KG,15000,Mie Basah,kg
+ING05,MINYAK GORENG,LITER,18000,Minyak Goreng,liter
+ING06,DAUN TEH,KG,45000,Daun Teh,kg
+ING07,JERUK,KG,20000,Jeruk,kg
+ING08,BIJI KOPI,KG,120000,Biji Kopi,kg
+ING09,SUSU CAIR,LITER,16000,Susu Cair,liter
+ING10,BUBUK MATCHA,KG,250000,Bubuk Matcha,kg
+ING11,ALPUKAT,KG,25000,Alpukat,kg
+ING12,TAHU,KG,8000,Tahu,kg
+ING13,PISANG,KG,15000,Pisang,kg
+ING14,KEJU,KG,90000,Keju,kg
+ING15,KENTANG,KG,12000,Kentang,kg
+ING16,COKLAT BATANGAN,KG,70000,Coklat Batangan,kg
+ING17,GULA AREN,KG,30000,Gula Aren,kg
+ING18,ES KRIM BASE,LITER,45000,Es Krim Base,liter

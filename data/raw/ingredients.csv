@@ -1,0 +1,19 @@
+ingredient_id,ingredient_name,unit,standard_cost
+ING01,Ayam,kg,38000
+ING02,Daging Rendang,kg,130000
+ING03,Beras,kg,13000
+ING04,Mie Basah,kg,15000
+ING05,Minyak Goreng,liter,18000
+ING06,Daun Teh,kg,45000
+ING07,Jeruk,kg,20000
+ING08,Biji Kopi,kg,120000
+ING09,Susu Cair,liter,16000
+ING10,Bubuk Matcha,kg,250000
+ING11,Alpukat,kg,25000
+ING12,Tahu,kg,8000
+ING13,Pisang,kg,15000
+ING14,Keju,kg,90000
+ING15,Kentang,kg,12000
+ING16,Coklat Batangan,kg,70000
+ING17,Gula Aren,kg,30000
+ING18,Es Krim Base,liter,45000
