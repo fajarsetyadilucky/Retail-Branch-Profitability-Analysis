@@ -1,0 +1,10 @@
+# GitHub Linguist Configuration for Retail-Branch-Profitability-Analysis
+# Exclude HTML previews, reports, and large archives
+reports/** linguist-detectable=false
+power_bi/** linguist-detectable=false
+_archive/** linguist-detectable=false
+*.html linguist-detectable=false
+
+# Detect Python code and Jupyter notebooks as Python
+*.py linguist-detectable=true linguist-language=Python
+*.ipynb linguist-detectable=true linguist-language=Python
