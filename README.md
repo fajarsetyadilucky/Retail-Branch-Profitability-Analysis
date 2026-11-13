@@ -95,13 +95,36 @@ Portfolio Project 1/
 
 ## 📈 Dashboard Power BI (Overview & Preview)
 
-Dashboard interaktif dibangun di **Power BI Desktop** menggunakan arsitektur relasi **Star Schema (1:N)** antara dimensi (`Dim_Branch`, `Dim_Calendar`, `Dim_Menu`, `Dim_Ingredient`, `Dim_Supplier`) dan tabel fakta (`Fact_Orders`, `Fact_Order_Items`, `Fact_Purchases`, `Fact_Inventory`, `Fact_Shifts`, `Fact_Opex`):
+Dashboard interaktif dibangun di **Power BI Desktop** menggunakan arsitektur relasi **Kimball Star Schema (1:N)** antara dimensi (`Dim_Branch`, `Dim_Calendar`, `Dim_Menu`, `Dim_Ingredient`, `Dim_Supplier`) dan tabel fakta (`Fact_Orders`, `Fact_Order_Items`, `Fact_Purchases`, `Fact_Inventory`, `Fact_Shifts`, `Fact_Opex`):
 
-- **Halaman 1 (Executive Overview):** Pemantauan KPI omzet, persentase biaya, dan ranking margin 18 cabang dengan *conditional formatting*.
-- **Halaman 2 (Root-Cause Matrix):** Scatter plot interaktif korelasi Z-Score Sourcing vs Waste Dapur dan disparitas beban tenaga kerja.
-- **Halaman 3 (New Branch Ramp-Up Curve):** Normalisasi kurva pertumbuhan margin bulanan BR18 untuk membedakan cabang baru dari cabang bermasalah.
+### 1. Halaman 1 — Executive Overview & Konsolidasi Metrik Jaringan
+> **Fokus Utama:** Pemantauan menyeluruh KPI omzet (Rp 4,89 Miliar), margin laba bersih 18 cabang, breakdown COGS/Labor/Opex, dan ranking performa cabang dengan *conditional formatting*.
 
-Akses proyek langsung di folder [`power_bi/`](power_bi/).
+<p align="center">
+  <img src="reports/figures/dashboard_overview.jpg" width="100%" alt="Power BI Dashboard - Executive Overview" />
+</p>
+
+### 2. Halaman 2 — Root-Cause Matrix & Scatter Plot Anomali Cabang
+> **Fokus Utama:** Scatter plot interaktif korelasi Z-Score Sourcing vs Waste Dapur, membongkar akar masalah spesifik cabang (Kelapa Gading: Overstaffing, BSD: High COGS & Waste, Sentul: Vendor Markup).
+
+<p align="center">
+  <img src="reports/figures/dashboard_root_cause.jpg" width="100%" alt="Power BI Dashboard - Root-Cause Matrix" />
+</p>
+
+### 3. Halaman 3 — Evaluasi Pertumbuhan Cabang Baru (Healthy Ramp-Up Curve)
+> **Fokus Utama:** Normalisasi kurva pertumbuhan margin bulanan BR18 (Summarecon Bekasi) yang membuktikan kenaikan margin sehat dari 19,9% ke 29,1% untuk membedakan cabang baru bertumbuh dari cabang sakit.
+
+<p align="center">
+  <img src="reports/figures/dashboard_cabang_baru.jpg" width="100%" alt="Power BI Dashboard - New Branch Ramp-Up Curve" />
+</p>
+
+### 💰 Estimasi Pemulihan Finansial & Roadmap 30 Hari
+<p align="center">
+  <img src="reports/figures/estimasi_dampak_financial.png" width="49%" alt="Estimasi Dampak Finansial" />
+  <img src="reports/figures/rencana_30_hari.png" width="49%" alt="Rencana Taktis 30 Hari" />
+</p>
+
+Akses berkas teknis `.pbix` & `.pbip` langsung di folder [`power_bi/`](power_bi/).
 
 ---
 
